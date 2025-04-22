@@ -124,7 +124,7 @@ export default function Home() {
                       </>
                     ) : (
                       <>
-                        <AvatarImage src="https://picsum.photos/id/222/50/50" alt="AI Avatar" />
+                        <AvatarImage src="https://picsum.photos/id/222/50/50" alt="Hubolux Assistant Bot" />
                         <AvatarFallback>AI</AvatarFallback>
                       </>
                     )}
@@ -154,6 +154,11 @@ export default function Home() {
               <span className="sr-only">Send</span>
             </Button>
           </div>
+          <SidebarTrigger className="absolute top-4 left-4 md:hidden">
+            <Button variant="outline" size="sm">
+              Toggle Sidebar
+            </Button>
+          </SidebarTrigger>
         </div>
       </div>
     </SidebarProvider>
