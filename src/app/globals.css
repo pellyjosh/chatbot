@@ -41,6 +41,11 @@ body {
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* App Specific CSS variables */
+    --message-bubble: 220 13% 94%; /* Neutral gray (#F0F0F0) in HSL */
+    --background: 0 0% 100%; /* White (#FFFFFF) in HSL */
+    --user-message: 180 100% 25%; /* Teal (#008080) in HSL */
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -75,6 +80,11 @@ body {
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+        /* App Specific CSS variables */
+    --message-bubble: 220 13% 7%; /* Neutral gray (#F0F0F0) in HSL */
+    --background: 0 0% 15%; /* White (#FFFFFF) in HSL */
+    --user-message: 180 70% 70%; /* Teal (#008080) in HSL */
   }
 }
 
@@ -86,3 +96,4 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
